@@ -14,18 +14,19 @@ Para iniciar el proyecto, una vez clonado el repositorio:
 - Ejecutar cualquiera de los siguientes comandos: *npm start* , *node ./src/bin/www* o bien *nodemon ./src/bin/www*
     
     - Endpoints:
-    - **GET** **/personas**
-    -     lista las personas registradas
-    - **POST** **/personas/crear** 
-    -     Crea una nueva entrada
-    - **PUT** **/personas/editar/:id** 
-    -     Permite editar los datos de una persona especifica
-    - **DELETE** **/personas/borrar/:id** 
-    -     Borra los datos de una persona especifica
-    - **GET** **/estadisticas**
-    -     Devuelve estadisticas generales
-    - **POST** **/personas/:id1/:relacion/:id2** 
-    -     Genera una relacion entre dos personas mediante su id, ejemplo: /personas/1/herman@/2
-    -     relaciones posibles: ti@, prim@ o herman@. 
-    - **GET** **/relaciones/:id1/:id2** 
-    -     Devuelve el tipo de relación entre dos personas 
+   
+    -     /personas
+    >  Lista las personas registradas. Método GET
+    -     /personas/crear
+    >  Crea una nueva entrada, recibe un objeto por body. Método POST
+    -     /personas/editar/:id 
+    > Permite editar los datos de una persona especifica. Método PUT
+    -     /personas/borrar/:id
+    > Borra los datos de una persona especifica. Método DELETE
+    -     /estadisticas
+    > Devuelve estadisticas generales. Método GET
+    -     /personas/:id1/:relacion/:id2 
+    > Genera una relacion entre dos personas mediante su id, ejemplo: "/personas/1/herman@/2". Relaciones posibles: ti@, prim@ o herman@. Método POST
+    -     /relaciones/:id1/:id2
+    > Devuelve el tipo de relación entre dos personas Método GET
+  
