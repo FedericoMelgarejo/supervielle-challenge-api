@@ -1,7 +1,3 @@
-# 
-
-
-
 ## API Supervielle
 ### Desafío técnico desarrollado en NODEJS a modo de práctica, documentación pendiente.
 #### Proyecto funcionando en heroku: https://api-supervielle.herokuapp.com/
