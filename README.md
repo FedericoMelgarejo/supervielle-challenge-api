@@ -1,6 +1,8 @@
 ## API Supervielle
 ### Desafío técnico desarrollado en NODEJS a modo de práctica, documentación pendiente.
-#### Proyecto funcionando en heroku: https://api-supervielle.herokuapp.com/
+[pdf]:./Challenge_técnico.pdf
+#### [Consignas][pdf] 
+#### Proyecto funcionando en heroku: https://api-supervielle.herokuapp.com/  
 
 Para iniciar el proyecto, una vez clonado el repositorio:
 
