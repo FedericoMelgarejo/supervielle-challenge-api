@@ -1,5 +1,5 @@
 ## API Supervielle
-### Desafío técnico desarrollado en NODEJS a modo de práctica, documentación pendiente.
+### Desafío técnico desarrollado en NODEJS y MYSQL a modo de práctica, documentación pendiente.
 [pdf]:./Challenge_técnico.pdf
 #### [Consignas][pdf] 
 #### Proyecto funcionando en heroku: https://api-supervielle.herokuapp.com/  
