@@ -18,7 +18,15 @@ Para iniciar el proyecto, una vez clonado el repositorio:
     -     /personas
     >  Lista las personas registradas. Método GET
     -     /personas/crear
-    >  Crea una nueva entrada, recibe un objeto por body. Método POST
+    >  Crea una nueva entrada, recibe el siguiente objeto por body:
+   `{"nombre":"",
+"apellido":"",
+"documento":"",
+"sexo":"",
+"edad":"",
+"contacto":"",
+"tipo_de_documento":""
+,"pais":""}` Método POST
     -     /personas/editar/:id 
     > Permite editar los datos de una persona especifica. Método PUT
     -     /personas/borrar/:id
