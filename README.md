@@ -21,7 +21,7 @@ Para iniciar el proyecto, una vez clonado el repositorio:
 "apellido":"string",
 "documento":"string",
 "sexo":"string",
-"edad":"numbre",
+"edad":"number",
 "contacto":"string",
 "tipo_de_documento":"number"
 ,"pais":"number"}` Método POST
